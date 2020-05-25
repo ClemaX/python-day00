@@ -10,13 +10,19 @@ def text_analyzer(*args):
         print("Error")
         return
     length = len(text)
-    upper = len([c for c in text if c.isupper()])
-    lower = len([c for c in text if c.islower()])
-    punct = len([c for c in text if c in string.punctuation])
-    spaces = len([c for c in text if c in string.whitespace])
+    upper = lower = punct = space = 0
+    for c in text:
+        if c.isupper():
+            upper += 1
+        elif c.islower():
+            lower += 1
+        elif c in string.punctuation:
+            punct += 1
+        elif c in string.whitespace:
+            space += 1
 
     print(f"The text contains {length} characters:", end="\n\n")
     print(f"- {upper} upper letters", end="\n\n")
     print(f"- {lower} lower letters", end="\n\n")
     print(f"- {punct} punctuation mark", end="\n\n")
-    print(f"- {spaces} spaces")
+    print(f"- {space} spaces")
