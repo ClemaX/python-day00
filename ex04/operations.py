@@ -8,6 +8,9 @@ def operate(a, b):
     if b != 0:
         print(f"Quotient:   {a / b}")
         print(f"Remainder:  {a % b}")
+    else:
+        print("Quotient:   ERROR (div by zero)}")
+        print("Remainder:  ERROR (modulo by zero)")
 
 
 def print_usage(filename):
