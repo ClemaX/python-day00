@@ -16,10 +16,10 @@ def print_usage(filename):
           f"   python {filename} 10 3", sep='\n')
 
 
-if (len(sys.argv) < 3):
+if len(sys.argv) < 3:
     print("InputError: not enough arguments")
     print_usage(sys.argv[0])
-elif (len(sys.argv) > 3):
+elif len(sys.argv) > 3:
     print("InputError: too many arguments")
     print_usage(sys.argv[0])
 else:
