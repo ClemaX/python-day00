@@ -1,6 +1,109 @@
+
+Please wait a moment while I gather a list of all available modules...
+
+IPython             asynchat            ipywidgets          secrets
+PyQt5               asyncio             itertools           select
+__future__          asyncore            jedi                selectors
+_abc                atexit              jinja2              send2trash
+_ast                attr                json                setuptools
+_asyncio            audioop             jsonschema          shelve
+_bisect             autopep8            jupyter             shlex
+_blake2             autoreload          jupyter_client      shutil
+_bootlocale         backcall            jupyter_console     signal
+_bz2                base64              jupyter_core        sip
+_codecs             bdb                 keyword             sipconfig
+_codecs_cn          binascii            lib2to3             sipdistutils
+_codecs_hk          binhex              linecache           site
+_codecs_iso2022     bisect              locale              six
+_codecs_jp          bleach              logging             smtpd
+_codecs_kr          builtins            lzma                smtplib
+_codecs_tw          bz2                 macpath             sndhdr
+_collections        cProfile            mailbox             socket
+_collections_abc    calendar            mailcap             socketserver
+_compat_pickle      certifi             markupsafe          spwd
+_compression        cgi                 marshal             sqlite3
+_contextvars        cgitb               math                sre_compile
+_crypt              chunk               mimetypes           sre_constants
+_csv                cmath               mistune             sre_parse
+_ctypes             cmd                 mkl                 ssl
+_ctypes_test        code                mkl_fft             stat
+_curses             codecs              mkl_random          statistics
+_curses_panel       codeop              mmap                storemagic
+_datetime           collections         modulefinder        string
+_decimal            colorsys            multiprocessing     stringprep
+_dummy_thread       compileall          nbconvert           struct
+_elementtree        concurrent          nbformat            subprocess
+_functools          configparser        netrc               sunau
+_hashlib            contextlib          nis                 symbol
+_heapq              contextvars         nntplib             sympyprinting
+_imp                copy                notebook            symtable
+_io                 copyreg             ntpath              sys
+_json               crypt               nturl2path          sysconfig
+_locale             csv                 numbers             syslog
+_lsprof             ctypes              numpy               tabnanny
+_lzma               curses              opcode              tarfile
+_markupbase         cythonmagic         operator            telnetlib
+_md5                dataclasses         optparse            tempfile
+_multibytecodec     datetime            os                  terminado
+_multiprocessing    dateutil            ossaudiodev         termios
+_opcode             dbm                 pandas              test
+_operator           decimal             pandocfilters       testpath
+_osx_support        decorator           parser              tests
+_pickle             defusedxml          parso               textwrap
+_posixsubprocess    difflib             pathlib             this
+_py_abc             dis                 pdb                 threading
+_pydecimal          distutils           pexpect             time
+_pyio               doctest             pickle              timeit
+_pyrsistent_version dummy_threading     pickleshare         tkinter
+_queue              easy_install        pickletools         token
+_random             email               pip                 tokenize
+_sha1               encodings           pipes               tornado
+_sha256             ensurepip           pkg_resources       trace
+_sha3               entrypoints         pkgutil             traceback
+_sha512             enum                platform            tracemalloc
+_signal             errno               plistlib            traitlets
+_sitebuiltins       faulthandler        poplib              tty
+_socket             fcntl               posix               turtle
+_sqlite3            filecmp             posixpath           turtledemo
+_sre                fileinput           pprint              types
+_ssl                fnmatch             profile             typing
+_stat               formatter           prometheus_client   unicodedata
+_string             fractions           prompt_toolkit      unittest
+_strptime           ftplib              pstats              urllib
+_struct             functools           pty                 uu
+_symtable           gc                  ptyprocess          uuid
+_sysconfigdata_aarch64_conda_cos7_linux_gnu genericpath         pvectorc            venv
+_sysconfigdata_i686_conda_cos6_linux_gnu getopt              pwd                 warnings
+_sysconfigdata_m_linux_x86_64-linux-gnu getpass             py_compile          wave
+_sysconfigdata_powerpc64le_conda_cos7_linux_gnu gettext             pyclbr              wcwidth
+_sysconfigdata_x86_64_apple_darwin13_4_0 glob                pycodestyle         weakref
+_sysconfigdata_x86_64_conda_cos6_linux_gnu grp                 pydoc               webbrowser
+_testbuffer         gzip                pydoc_data          webencodings
+_testcapi           hashlib             pyexpat             wheel
+_testimportmultiple heapq               pygments            widgetsnbextension
+_testmultiphase     hmac                pyrsistent          wsgiref
+_thread             html                pytz                xdrlib
+_threading_local    http                qtconsole           xml
+_tkinter            idlelib             qtpy                xmlrpc
+_tracemalloc        imaplib             queue               xxlimited
+_warnings           imghdr              quopri              xxsubtype
+_weakref            imp                 random              zipapp
+_weakrefset         importlib           re                  zipfile
+_xxtestfuzz         importlib_metadata  readline            zipimport
+abc                 inspect             reprlib             zipp
+aifc                io                  resource            zlib
+antigravity         ipaddress           rlcompleter         zmq
+argparse            ipykernel           rmagic              
+array               ipykernel_launcher  runpy               
+ast                 ipython_genutils    sched               
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
 Package            Version            
 ------------------ -------------------
 attrs              19.3.0             
+autopep8           1.4.4              
 backcall           0.1.0              
 bleach             3.1.4              
 certifi            2020.4.5.1         
@@ -37,64 +140,7 @@ pip                20.0.2
 prometheus-client  0.7.1              
 prompt-toolkit     3.0.4              
 ptyprocess         0.6.0              
-Pygments           2.6.1              
-pyrsistent         0.16.0             
-python-dateutil    2.8.1              
-pytz               2020.1             
-pyzmq              18.1.1             
-qtconsole          4.7.4              
-QtPy               1.9.0              
-Send2Trash         1.5.0              
-setuptools         46.4.0.post20200518
-six                1.14.0             
-terminado          0.8.3              
-testpath           0.4.4              
-tornado            6.0.4              
-traitlets          4.3.3              
-wcwidth            0.1.9              
-webencodings       0.5.1              
-wheel              0.34.2             
-widgetsnbextension 3.5.1              
-zipp               3.1.0              
-Package            Version            
------------------- -------------------
-attrs              19.3.0             
-backcall           0.1.0              
-bleach             3.1.4              
-certifi            2020.4.5.1         
-decorator          4.4.2              
-defusedxml         0.6.0              
-entrypoints        0.3                
-importlib-metadata 1.5.0              
-ipykernel          5.1.4              
-ipython            7.13.0             
-ipython-genutils   0.2.0              
-ipywidgets         7.5.1              
-jedi               0.17.0             
-Jinja2             2.11.2             
-jsonschema         3.2.0              
-jupyter            1.0.0              
-jupyter-client     6.1.3              
-jupyter-console    6.1.0              
-jupyter-core       4.6.3              
-MarkupSafe         1.1.1              
-mistune            0.8.4              
-mkl-fft            1.0.15             
-mkl-random         1.1.0              
-mkl-service        2.3.0              
-nbconvert          5.6.1              
-nbformat           5.0.6              
-notebook           6.0.3              
-numpy              1.18.1             
-pandas             1.0.3              
-pandocfilters      1.4.2              
-parso              0.7.0              
-pexpect            4.8.0              
-pickleshare        0.7.5              
-pip                20.0.2             
-prometheus-client  0.7.1              
-prompt-toolkit     3.0.4              
-ptyprocess         0.6.0              
+pycodestyle        2.5.0              
 Pygments           2.6.1              
 pyrsistent         0.16.0             
 python-dateutil    2.8.1              
@@ -168,12 +214,12 @@ ReadBot (1.0)                     - A delightful tesseract OCR module
 tessy (0.5.1)                     - A Python wrapper for Tesseract-OCR.
 TesseractTrainer (0.1.1)          - A small framework taking over the manual tesseract training process described in the Tesseract Wiki
 pytesstrain (0.1.14)              - Collection of utilities for Tesseract OCR training
-ruppell (0.0.6)                   - text extractor based in tesseract ocr
 tightocr (0.4.4)                  - Thin and pleasant wrapper for Tesseract OCR.
+ruppell (0.0.6)                   - text extractor based in tesseract ocr
 pyslibtesseract (0.0.15)          - Integration of Tesseract for Python using a shared library
-piltesseract (1.0.2)              - Image-to-text Tesseract command line wrapper.
 tesserwrap (0.1.6)                - Basic python bindings to the Tesseract C++ API
 findtext (0.1.0)                  - OCR, based on tesseract (tesserocr), with accuracy improvement
+piltesseract (1.0.2)              - Image-to-text Tesseract command line wrapper.
 django-tesseractfield (0.0.2)     - A small app providing a tesseract field for django
 gpyocr (1.4)                      - Python wrapper for Tesseract OCR and Google Vision OCR
 pyocr (0.7.2)                     - A Python wrapper for OCR engines (Tesseract, Cuneiform, etc)
