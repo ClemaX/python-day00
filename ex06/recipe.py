@@ -86,26 +86,22 @@ def menu_add():
     meal = input("meal: ")
     prep_time = input("preparation time (in min.): ")
     add_recipe(name, ingredients, meal, prep_time)
-    pass
 
 
 def menu_delete():
     print("Please enter the name of the recipe to be deleted.")
     name = input(">> ")
     delete_recipe(name)
-    pass
 
 
 def menu_print():
     print("Please enter the recipe's name to get its details.")
     name = input(">> ")
     print_recipe(name)
-    pass
 
 
 def menu_list():
     print_recipes()
-    pass
 
 
 def menu_quit():
