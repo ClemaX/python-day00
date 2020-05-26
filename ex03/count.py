@@ -3,7 +3,8 @@ import string
 
 def text_analyzer(*args):
     if len(args) == 0:
-        text = input("What is the text to analyse?\n")
+        print("What is the text to analyse?")
+        text = input(">> ")
     elif len(args) == 1:
         text = args[0]
     elif len(args) > 1:
